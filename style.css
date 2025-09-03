@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(product/bvj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max("1200px,100vw ");
+     height: 60vh;
+    position: relative;
+}
+.main .box{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav img{
+    height: 40px;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    height: 23px;
+}
+.hero{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 10px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-weight: bolder;
+    font-size:19px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.hero> :nth-child(3){
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.separation{
+    height: 2px;
+    background-color: rgb(55, 54, 54);
+}
+.btn-eng{
+padding: 3px px;
+font-weight: 400px;
+background-color: hwb(0 54% 46% / 0);
+color: white;
+border-color: azure;
+border-radius: 4px;
+}
+.btn-start{
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid rgb(70, 53, 53);
+}
+.btn-signin{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.main input{
+    background-color: rgba(23, 23, 23,0.2);
+    border-color: rgba(243, 229, 229, 0.992);
+    border-radius:4px ;
+    height:25px;
+    color: white;
+}
+.trending-now{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+.trending-now h2{
+    color: azure;
+    font-size: 24px;
+    margin-bottom: 20px;  
+}
+.trending-movies{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie-card{
+    margin: 0 10px;
+    background: #2e2e2e;
+    overflow: hidden;
+    cursor: pointer;
+}
+.movie-card img{
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.first{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sec img{
+    border-radius: 10px;
+    height: 120px;
+    border: 2px solid ;
+
+}
+.faq h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+.faqbox{
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(52, 49, 49);
+    padding: 19px;
+    margin: 5px auto;
+    max-width: 100vh;
+}
+footer{
+    color: white;
+      max-width: 60vw;
+    margin: auto;
+    gap: 14px;
+}
+footer .question{
+padding:30px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+} 
